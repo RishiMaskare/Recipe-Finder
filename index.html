@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🍲 Discover New Flavors</h1>
+    <p>Search recipes from around the world</p>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="e.g. dal, pasta, soup..." />
+      <button id="search-btn">🔍 Search</button>
+    </div>
+    <div id="loader" class="hidden"></div>
+  </header>
+
+  <div id="error" class="error-msg hidden"></div>
+  <div id="meal-result" class="hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
