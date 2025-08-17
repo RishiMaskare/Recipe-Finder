@@ -12,9 +12,7 @@ A simple and interactive web app to discover delicious recipes from around the w
   - Ingredients
   - Instructions
   - Image
-  - YouTube tutorial (if available)
 - ✨ Beautiful animated UI with loading spinner and error handling
-- 📱 Fully responsive design for desktop and mobile
 
 ---
 
@@ -29,12 +27,15 @@ A simple and interactive web app to discover delicious recipes from around the w
 
 ## 🛠️ How to Use
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/recipe-finder.git
 
+# 1. Clone the repository
+```bash
+git clone https://github.com/your-username/recipe-finder.git
+```
 # 2. Navigate to the project folder
+```bash
 cd recipe-finder
+```
 
 # 3. Open the application
 # (No installation needed – just open index.html in your browser)
